@@ -21,6 +21,8 @@ a {
     display:flex;
     justify-content:center;
     justify-content:space-around;
+    border: 3px groove #bd7113;
+    background-color: #eec000;
 }
 .social{
     display:flex;
@@ -33,7 +35,7 @@ a {
  padding-bottom: 5px;
  font-family: 'Lobster', cursive;
  border: 3px groove #bd7113;
- background-color: #eec000;
+ background-color: #ffaf0a;
  text-shadow: 3.7px .9px 2px red;
 
 }
@@ -45,18 +47,19 @@ a {
     
 }
 .navbar a{
-    color:white;
+    color:black;
     
     
 }
 .nav{
-    background-color: #00a8ff;
+    background-color: #eec000;
     display:flex;
     justify-content:center;
     justify-content:space-around;
+    border: 3px groove #bd7113;
 }
 .nav a{
-        color:white;
+        color:black;
 
 }
 .footer{
@@ -72,11 +75,11 @@ a {
     padding-right:40px;
 }
 .nav a:hover{
-    background-color: #eec000;
+    background-color: #fffa93;
 
 }
-.main a:hover{
-    background-color: #eec000;
+.navbar a:hover{
+    background-color: #fffa93;
 
 }
 .gallery{
@@ -87,4 +90,15 @@ a {
 .gallery img{
     width:250px;
     height:300px;
+}
+.aboutMain{
+    display: flex;
+}
+.leftPane{
+    width:60%;
+}
+.rightPane{
+    display:flex;
+    justify-content:center;
+    width:40%;
 }
